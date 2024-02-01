@@ -20,6 +20,14 @@ public class Alumno {
 		this.apellidos = apellidos;
 		this.telefono = telefono;
 	}
+	
+	public int Add(int numero) {
+		if(contador < asignaturas.length) {
+			asignaturas[contador] = numero;
+			contador++;
+		}
+			return -1;
+	}
 
 	@Override
 	public String toString() {
